@@ -1,0 +1,407 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 576
+  ClientWidth = 382
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object GSContainer1: TGSContainer
+    Align = Client
+    Size.Width = 382.000000000000000000
+    Size.Height = 528.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    MinHeight = 50.000000000000000000
+    AutoHeight = False
+    Sides = []
+    Corners = []
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 382.000000000000000000
+      Size.Height = 528.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 382.000000000000000000
+      Viewport.Height = 528.000000000000000000
+      object GSContainer2: TGSContainer
+        Align = Client
+        Size.Width = 382.000000000000000000
+        Size.Height = 528.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        object GSRow1: TGSRow
+          Align = Client
+          HitTest = False
+          Size.Width = 382.000000000000000000
+          Size.Height = 528.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Justify = Left
+          JustifyLastLine = Left
+          FlowDirection = LeftToRight
+          MinHeight = 50.000000000000000000
+          AutoHeight = False
+          Sides = []
+          Corners = []
+          object GSCol1: TGSCol
+            Size.Width = 381.998992919921900000
+            Size.Height = 97.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            MinHeight = 50.000000000000000000
+            AutoHeight = False
+            Sides = []
+            Corners = []
+            DataColumns = {
+              53637265656E4578747261536D616C6C3D31320D0A53637265656E4578747261
+              4C617267653D330D0A}
+            object RoundRect1: TRoundRect
+              Align = Contents
+              Corners = [TopRight, BottomRight]
+              Fill.Color = xFFFF7575
+              Opacity = 0.800000011920929000
+              Size.Width = 381.998992919921900000
+              Size.Height = 97.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Rectangle1: TRectangle
+                Align = Left
+                Fill.Color = claRed
+                Size.Width = 17.000000000000000000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Layout1: TLayout
+                Align = Client
+                Size.Width = 364.998992919921900000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label1: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 20.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 334.998992919921900000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFFC11212
+                  Text = 'Cadastro de Clientes'
+                  TabOrder = 0
+                end
+                object Label2: TLabel
+                  Align = Client
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 344.998992919921900000
+                  Size.Height = 44.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFFC11212
+                  TextSettings.VertAlign = Leading
+                  Text = 'Cadastre, altere e exclua clientes'
+                  TabOrder = 1
+                end
+              end
+            end
+          end
+          object GSCol2: TGSCol
+            Position.Y = 97.000000000000000000
+            Size.Width = 381.998992919921900000
+            Size.Height = 97.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            MinHeight = 50.000000000000000000
+            AutoHeight = False
+            Sides = []
+            Corners = []
+            DataColumns = {
+              53637265656E4578747261536D616C6C3D31320D0A53637265656E4578747261
+              4C617267653D330D0A}
+            object RoundRect2: TRoundRect
+              Align = Contents
+              Corners = [TopRight, BottomRight]
+              Fill.Color = xFF75AEFF
+              Opacity = 0.800000011920929000
+              Size.Width = 381.998992919921900000
+              Size.Height = 97.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Rectangle2: TRectangle
+                Align = Left
+                Fill.Color = xFF0046FF
+                Size.Width = 17.000000000000000000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Layout2: TLayout
+                Align = Client
+                Size.Width = 364.998992919921900000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label3: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 20.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 334.998992919921900000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFF223DBD
+                  Text = 'Cadastro de Fornecedores'
+                  TabOrder = 0
+                end
+                object Label4: TLabel
+                  Align = Client
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 344.998992919921900000
+                  Size.Height = 44.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFF223DBD
+                  TextSettings.VertAlign = Leading
+                  Text = 'Cadastre, altere e exclua clientes'
+                  TabOrder = 1
+                end
+              end
+            end
+          end
+          object GSCol3: TGSCol
+            Position.Y = 194.000000000000000000
+            Size.Width = 381.998992919921900000
+            Size.Height = 97.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            MinHeight = 50.000000000000000000
+            AutoHeight = False
+            Sides = []
+            Corners = []
+            DataColumns = {
+              53637265656E4578747261536D616C6C3D31320D0A53637265656E4578747261
+              4C617267653D330D0A}
+            object RoundRect3: TRoundRect
+              Align = Contents
+              Corners = [TopRight, BottomRight]
+              Fill.Color = xFF75FF96
+              Opacity = 0.800000011920929000
+              Size.Width = 381.998992919921900000
+              Size.Height = 97.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Rectangle3: TRectangle
+                Align = Left
+                Fill.Color = xFF48BA2B
+                Size.Width = 17.000000000000000000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Layout3: TLayout
+                Align = Client
+                Size.Width = 364.998992919921900000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label5: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 20.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 334.998992919921900000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFF2D9D45
+                  Text = 'Cadastro de Clientes'
+                  TabOrder = 0
+                end
+                object Label6: TLabel
+                  Align = Client
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 344.998992919921900000
+                  Size.Height = 44.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFF2D9D45
+                  TextSettings.VertAlign = Leading
+                  Text = 'Cadastre, altere e exclua clientes'
+                  TabOrder = 1
+                end
+              end
+            end
+          end
+          object GSCol4: TGSCol
+            Position.Y = 291.000000000000000000
+            Size.Width = 381.998992919921900000
+            Size.Height = 97.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            MinHeight = 50.000000000000000000
+            AutoHeight = False
+            Sides = []
+            Corners = []
+            DataColumns = {
+              53637265656E4578747261536D616C6C3D31320D0A53637265656E4578747261
+              4C617267653D330D0A}
+            object RoundRect4: TRoundRect
+              Align = Contents
+              Corners = [TopRight, BottomRight]
+              Fill.Color = xFFFF75CF
+              Opacity = 0.800000011920929000
+              Size.Width = 381.998992919921900000
+              Size.Height = 97.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Rectangle4: TRectangle
+                Align = Left
+                Fill.Color = xFFA02A98
+                Size.Width = 17.000000000000000000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Layout4: TLayout
+                Align = Client
+                Size.Width = 364.998992919921900000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label7: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 20.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 334.998992919921900000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFFA41A9F
+                  Text = 'Cadastro de Clientes'
+                  TabOrder = 0
+                end
+                object Label8: TLabel
+                  Align = Client
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 344.998992919921900000
+                  Size.Height = 44.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFFA41A9F
+                  TextSettings.VertAlign = Leading
+                  Text = 'Cadastre, altere e exclua clientes'
+                  TabOrder = 1
+                end
+              end
+            end
+          end
+          object GSCol5: TGSCol
+            Position.Y = 388.000000000000000000
+            Size.Width = 381.998992919921900000
+            Size.Height = 97.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            MinHeight = 50.000000000000000000
+            AutoHeight = False
+            Sides = []
+            Corners = []
+            DataColumns = {
+              53637265656E4578747261536D616C6C3D31320D0A53637265656E4578747261
+              4C617267653D330D0A}
+            object RoundRect5: TRoundRect
+              Align = Contents
+              Corners = [TopRight, BottomRight]
+              Fill.Color = xFF75E7FF
+              Opacity = 0.800000011920929000
+              Size.Width = 381.998992919921900000
+              Size.Height = 97.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Rectangle5: TRectangle
+                Align = Left
+                Fill.Color = xFF00CAFF
+                Size.Width = 17.000000000000000000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Layout5: TLayout
+                Align = Client
+                Size.Width = 364.998992919921900000
+                Size.Height = 97.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label9: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 20.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 334.998992919921900000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFF129DC1
+                  Text = 'Cadastro de Clientes'
+                  TabOrder = 0
+                end
+                object Label10: TLabel
+                  Align = Client
+                  StyledSettings = [Family, Size, Style]
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 10.000000000000000000
+                  Margins.Right = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 344.998992919921900000
+                  Size.Height = 44.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.FontColor = xFF129DC1
+                  TextSettings.VertAlign = Leading
+                  Text = 'Cadastre, altere e exclua clientes'
+                  TabOrder = 1
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 382.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+end

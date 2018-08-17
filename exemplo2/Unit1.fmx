@@ -1,0 +1,351 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 771
+  ClientWidth = 644
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object GSContainer1: TGSContainer
+    Align = Client
+    Size.Width = 644.000000000000000000
+    Size.Height = 771.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    MinHeight = 50.000000000000000000
+    AutoHeight = False
+    Sides = []
+    Corners = []
+    object GSRow1: TGSRow
+      Align = Client
+      HitTest = False
+      Size.Width = 644.000000000000000000
+      Size.Height = 771.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+      MinHeight = 50.000000000000000000
+      AutoHeight = False
+      Sides = []
+      Corners = []
+      object GSCol1: TGSCol
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle1: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label1: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol2: TGSCol
+        Position.Y = 81.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle2: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label2: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol3: TGSCol
+        Position.Y = 162.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle3: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label3: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol4: TGSCol
+        Position.Y = 243.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle4: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label4: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol5: TGSCol
+        Position.Y = 324.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle5: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label5: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol6: TGSCol
+        Position.Y = 405.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle6: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label6: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol7: TGSCol
+        Position.Y = 486.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle7: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label7: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol8: TGSCol
+        Position.Y = 567.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle8: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label8: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+      object GSCol9: TGSCol
+        Position.Y = 648.000000000000000000
+        Size.Width = 643.999023437500000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        MinHeight = 50.000000000000000000
+        AutoHeight = False
+        Sides = []
+        Corners = []
+        DataColumns = {
+          53637265656E4D656469756D3D340D0A53637265656E536D616C6C3D31320D0A
+          53637265656E4C617267653D320D0A}
+        object Circle9: TCircle
+          Align = Client
+          Fill.Color = xFF40D9F1
+          Size.Width = 643.999023437500000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Label9: TLabel
+            Align = Contents
+            Margins.Left = 20.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Size.Width = 603.999023437500000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.HorzAlign = Center
+            Text = '1'
+            TabOrder = 0
+          end
+        end
+      end
+    end
+  end
+end
